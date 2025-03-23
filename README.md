@@ -18,7 +18,7 @@
 
 *data/podcast.txt* - транскрипты подкастов с YouTube-канала "Уютный ФКНчик" (15 выпусков, ≈150k токенов).
 
-## 2. Тестирование опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag).
+### 2. Тестирование опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag).
 В рамках проекта мы тестировали модель DeepSeek-R1, для этого нужно выполнить следующие команды:
 
 Мы также протестировали опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag). В рамках проекта мы тестировали модель DeepSeek-R1, для этого нужно выполнить следующие команды:
@@ -40,7 +40,7 @@ ollama pull deepseek-r1:14b
 python3 deep14b_gazeta_launch.py
 ```
 
-## 3. Оптимизация алгоритма выделения сообществ посредством встраивания алгоритма Лейдена, BFS и Баяна (код [здесь](https://github.com/mashagodunova/graphrag))
+### 3. Оптимизация алгоритма выделения сообществ посредством встраивания алгоритма Лейдена, BFS и Баяна (код [здесь](https://github.com/mashagodunova/graphrag))
 
 
 
