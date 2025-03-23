@@ -25,7 +25,7 @@ pip install -e .
 ollama pull deepseek-r1:14b
 ```
 
-Наконец, запускаем построение графа (скачиваем тетрадку *graphrag_modifications/nano-graphrag/deep14b_gazeta_launch.py* и перемещаем её в нашу папку с библиотекой *nano-graphrag/examples*:
+Наконец, запускаем построение графа (скачиваем тетрадку *graphrag_modifications/nano-graphrag/deep14b_gazeta_launch.py* и перемещаем её в нашу папку с библиотекой *nano-graphrag/examples*):
 ```
 python3 deep14b_gazeta_launch.py
 ```
