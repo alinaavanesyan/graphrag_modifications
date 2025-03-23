@@ -272,13 +272,13 @@ def metrics(res_path):
         final[i]['Ответ'] = ans
         final[i]['Оценки'] = result_metrics
 
-    with open('/home/user/avanesyan/nano-graphrag/qwen_podcast_metrics.json', 'w', encoding='utf-8') as json_file:
+    with open('qwen_podcast_metrics.json', 'w', encoding='utf-8') as json_file:
         json.dump(final, json_file, ensure_ascii=False, indent=4)
 
 def insert():
     from time import time
 
-    with open("./tests_alina/podcast.txt", encoding="utf-8-sig") as f:
+    with open("./tests/gazeta.txt", encoding="utf-8-sig") as f:
         FAKE_TEXT = f.read()
 
     remove_if_exist(f"{WORKING_DIR}/vdb_entities.json")
