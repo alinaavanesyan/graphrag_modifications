@@ -6,10 +6,20 @@
 
 ## Обзор
 
-В этом репозитории представлен проект, направленный на:
-1. Адаптацию GraphRAG под русскоязычную модель YandexGPT Experimental (код [здесь](https://github.com/alinaavanesyan/GraphRAG_for_YandexGPT))
+В этом репозитории представлен проект по модификации GraphRAG-подхода.
 
-2. Оптимизацию алгоритма выделения сообществ посредством встраивания алгоритма Лейдена, BFS и Баяна (код [здесь](https://github.com/mashagodunova/graphrag))
+
+### 1. Адаптация GraphRAG под русскоязычную модель YandexGPT Experimental
+(код [здесь](https://github.com/alinaavanesyan/GraphRAG_for_YandexGPT)).
+
+Данные для построения графа:
+
+*data/gazeta.txt* - часть датасета IlyaGusev/gazeta с саммаризированными новостными статьями, собранными из различных источников (отрывок из ≈250k токенов).
+
+*data/podcast.txt* - транскрипты подкастов с YouTube-канала "Уютный ФКНчик" (15 выпусков, ≈150k токенов).
+
+## 2. Тестирование опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag).
+В рамках проекта мы тестировали модель DeepSeek-R1, для этого нужно выполнить следующие команды:
 
 Мы также протестировали опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag). В рамках проекта мы тестировали модель DeepSeek-R1, для этого нужно выполнить следующие команды:
 
@@ -29,3 +39,9 @@ ollama pull deepseek-r1:14b
 ```
 python3 deep14b_gazeta_launch.py
 ```
+
+## 3. Оптимизация алгоритма выделения сообществ посредством встраивания алгоритма Лейдена, BFS и Баяна (код [здесь](https://github.com/mashagodunova/graphrag))
+
+
+
+3аа
