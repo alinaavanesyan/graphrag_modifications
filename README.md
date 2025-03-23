@@ -11,4 +11,10 @@
 
 2. Оптимизацию алгоритма выделения сообществ посредством встраивания алгоритма Лейдена, BFS и Баяна (код [здесь](https://github.com/mashagodunova/graphrag))
 
-Мы также протестировали опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag)
+Мы также протестировали опенсорс-модели внутри GraphRAG с помощью библиотеки [nano-graphrag](https://github.com/gusye1234/nano-graphrag). В рамках проекта мы тестировали модель DeepSeek-R1, для этого нужно выполнить следующие команды:
+
+```
+git clone https://github.com/gusye1234/nano-graphrag.git
+cd nano-graphrag
+pip install -e .
+```
